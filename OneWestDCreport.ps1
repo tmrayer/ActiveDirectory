@@ -7,9 +7,9 @@ $DomainName = (Get-ADDomain).DNSRoot
 # Setup email parameters
 $subject = "Domain Controllers in $DomainName"
 $priority = "Normal"
-$smtpServer = "smtp.west.com"
-$emailFrom = "arlamb@west.com"
-$emailTo = "tmrayer@west.com","arlamb@west.com"
+$smtpServer = "smtp.company.com"
+$emailFrom = "emailaddress@company.com"
+$emailTo = "emailaddress@company.com","emailaddress@company.com"
 $port = 25
 $Global:seq = 1;
  
